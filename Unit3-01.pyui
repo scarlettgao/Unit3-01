@@ -1,0 +1,70 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {584, 492}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{91, 118}, {247, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{217, 230}, {150, 32}}",
+          "uuid" : "36AB91F4-50AF-4097-9B5F-E86ED4503200",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Guess the number",
+          "name" : "Guess the number_label",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{91, 192}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{192, 230}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "FDFF702E-FFE8-4F02-9DA4-92D601B9BF64",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "number_of_students_textfield",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{91, 284}, {102, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "check_number_of_students_touch_up_inside",
+          "frame" : "{{252, 230}, {80, 32}}",
+          "title" : "check",
+          "uuid" : "E05A0E4F-25AE-4031-8253-CEEE3E51CD4F",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
